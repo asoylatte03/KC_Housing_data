@@ -22,7 +22,7 @@ For the purposes of this project, we are a group of data scientists working for 
 - How can we increase the selling price of these properties by highlighting specific features ? 
 
 ## Data
-Data was gathered from the King County Housing Sales dataset. Information about the dataset's glossery can be found [here](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
+Data was gathered from the King County Housing Sales dataset. Information about the dataset's glossary can be found [here](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
 
 The King County Housing Sales dataset contains information on 30,155 properties and 25 features for houses sold from 2021-2022. Information on each property includes number of bathrooms/bedrooms, floors, square footage of the lot, address, and more. 
 
