@@ -22,13 +22,15 @@ For the purposes of this project, we are a group of data scientists working for 
 - How can we increase the selling price of these properties by highlighting specific features ? 
 
 ## Data
-Data was gathered from the King County Housing Sales dataset. Information about the dataset's glossery can be found [here](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
+Data was gathered from the King County Housing Sales dataset. Information about the dataset's glossary can be found [here](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
 
 The King County Housing Sales dataset contains information on 30,155 properties and 25 features for houses sold from 2021-2022. Information on each property includes number of bathrooms/bedrooms, floors, square footage of the lot, address, and more. 
 
 The Zip Codes dataset was collected from [here](https://www.unitedstateszipcodes.org/) and contains information on all zipcodes within King County, % of population, and the city associated with them. 
 
 ## Baseline Simple Linear Regression Model 
+![Simple Linear Regression](https://github.com/asoylatte03/KC_Housing_data/blob/main/Images/baseline_model.jpg)
+
 Our initial simple linear regression model utilized `sqft_living` as a predictor variable for `price`. Our baseline model only accounted for ~ 32% of the variance observed in property sale price. Additionally, the model had a mean absolute error (MAE) of approximately $285,317 between the predicted and actual prices of the property. 
 
 ## Modeling A Multilinear Regression Model 
